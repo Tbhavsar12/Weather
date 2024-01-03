@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weatherStyle.css">
+    <title>WEATHER APP</title>
+</head>
+<body>
+    <div class="mdiv">
+        <div class="weather_app">
+            <h2 align="center">WEATHER FORECAST</h2>
+            <div class="ip">
+                <input type="text" id="userText" placeholder="Enter the City Name">
+                <button onclick="getWeatherData()"><img src="search.png" height="20px" alt="search"></button>
+            </div>
+            <div class="info" align="center">
+                <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="weather" class="weather_img">
+                <h1 id="temp">27°C</h1>
+                <h2 id="city">PUNE</h2>
+            </div>
+            <div class="info2">
+                <div class="humidity">
+                        <img src="https://cdn2.iconfinder.com/data/icons/buno-weather/32/humidity_steam_water_level-512.png" alt="humidity" class="humi">
+                        <h3>HUMIDITY</h3>
+                        <h4 id="humidity-info">50%</h4>
+                </div>
+                <div class="wind">
+                    <img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/wind-256.png" alt="humidity" class="humi">
+                    <h3>WIND</h3>
+                    <h4 id="wind-info">4 km/h</h4>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="weatherScript.js"></script>
+</body>
+</html>
